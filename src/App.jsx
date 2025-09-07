@@ -18,7 +18,7 @@ function ThemeToggle() {
   const { darkMode, toggleTheme } = useTheme();
   return (
     <button className="theme-toggle" onClick={toggleTheme}>
-      {darkMode ? '☀️ Light' : '🌙 Dark'}
+      {darkMode ? ' Light' : ' Dark'}
     </button>
   );
 }
